@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Testing book search by ISBN</h2>
+
+<!--<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>-->
+
+<style>
+.supermarket_forms {
+    padding-left: 0px;
+    padding-right: 70px;
+}
+</style>
+
+<div style="display: inline-flex">
+		<div class="supermarket_forms">
+			<form action="/get_request.php" method="post" accept-charset=utf-8>
+				<h3> Insert </h3><br>
+                <label for="ISBN">ISBN</label><br>
+				    <input style="display: flex" type="text" id="ISBN" name="ISBN" placeholder="Insert ISBN here">
+				<input type="submit" value="Insert">
+			</form>
+		</div>
+</div>
+</body>
+</html>
