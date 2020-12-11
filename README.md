@@ -4,7 +4,7 @@ This is my personal format to manage my books library. I plan to expand it / add
 
 ## Requirements
 
-A database, somewhere.
+A database, somewhere.  
 An Apache Webserver to connect your database with the frontend.  
 A Google Books API key.
 
